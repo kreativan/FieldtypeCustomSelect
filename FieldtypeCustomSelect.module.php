@@ -28,7 +28,7 @@ class FieldtypeCustomSelect extends Fieldtype {
 
 		foreach($options as $value => $label) {
 
-			$value = $this->sanitizer->fieldName($value);
+			$value = trim($value);
 			$label = !empty($label) ? $label : $value;
 
 			$inputfield->addOption($value, $label);

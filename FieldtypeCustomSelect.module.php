@@ -14,9 +14,9 @@ class FieldtypeCustomSelect extends Fieldtype {
 
 	public static function getModuleInfo() {
 		return array(
-		'title' => 'Classifieds Filter Field',
+		'title' => 'Custom Select',
 		'version' => 100,
-		'summary' => 'Select field to use it on a filter'
+		'summary' => 'Custom Select Fieldtype'
 		);
 	}
 
